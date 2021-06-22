@@ -1,14 +1,11 @@
-import './App.css';
-import Headers from './components/header'
+import "./App.css";
+import ColorBox from "./components/colorBox";
 
 function App() {
- 
   return (
-   
-   <div>
-      <Headers></Headers>
-    
-   </div>
+    <div>
+      <ColorBox></ColorBox>
+    </div>
   );
 }
 
